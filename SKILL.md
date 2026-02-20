@@ -12,7 +12,7 @@ Quick reference for using **Kimi K2.5** (kimi-coding/k2p5) through OpenClaw.
 | Property | Value |
 |----------|-------|
 | **Full ID** | `kimi-coding/k2p5` |
-| **Alias** | `kimi` |
+| **Alias** | `kimi` *(only valid alias)* |
 | **Provider** | Moonshot AI |
 | **Context** | 256K tokens |
 | **Strength** | Code generation, architecture, debugging |
