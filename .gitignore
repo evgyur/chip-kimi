@@ -1,0 +1,28 @@
+# Secrets and sensitive files
+.env
+.env.*
+*.key
+*.pem
+*.secret
+secrets/
+credentials/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Dependencies (if any)
+node_modules/
+__pycache__/
+*.pyc
