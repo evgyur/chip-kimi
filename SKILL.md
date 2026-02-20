@@ -44,6 +44,21 @@ Or simply mention:
 /kimi [your request]
 ```
 
+### Set as primary (default) model
+Add to your OpenClaw configuration:
+```yaml
+model:
+  default: kimi
+```
+
+### Set as fallback model
+Configure fallback chain in OpenClaw:
+```yaml
+model:
+  default: mmfast        # Primary: fast responses
+  fallback: kimi         # Fallback: complex tasks
+```
+
 ### Check current model
 ```
 /status
